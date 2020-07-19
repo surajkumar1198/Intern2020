@@ -1,4 +1,4 @@
-# SBSPS-Challenge-3476-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard 
+# Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard 
 ### Link
 https://tourist-bot-hilapp.web.app
 ### Overview
