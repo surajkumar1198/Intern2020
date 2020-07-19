@@ -32,6 +32,6 @@ https://drive.google.com/file/d/1J7olMz38UN7yhn-OM6BXZ6Odppm1tLy3/view?usp=shari
 ### Video link
 https://drive.google.com/file/d/14XcvLROC6G_SiDr90tGSqYcrtj9fmmxl/view?usp=sharing
 ### Source code
-All code(data Cleaning to Machine Learning) is under DataSciencr Folder and Dashboard Source code is on main screen ,For detailed source code change branch to.
+All code(data Cleaning to Machine Learning) is under DataScience Folder and Dashboard Source code is on main screen ,For detailed source code change branch to.
 ###### PS:
 It is version 1 of our project .According to reviews and feedbacks we will update it and add more salient features in next version.As we covered most of the key features of our project and made a Minimal Viable Product,and some features kept for version 2 - like Respnsive ,Mobile App etc.
