@@ -1,0 +1,24 @@
+.Container {
+  color: white;
+  margin: 0 0;
+  padding: 0 0;
+  background-color: #191919;
+}
+
+.Container h1 {
+  padding: 0 10px;
+  margin: 5px 0;
+}
+
+.Container h1:hover {
+  cursor: pointer;
+}
+
+.NavItem {
+  color: white;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  background-color: #004f7c;
+  text-decoration: none;
+}

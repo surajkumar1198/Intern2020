@@ -1,0 +1,26 @@
+.Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  background-color: #191919;
+  text-align: center;
+  background-color: #1f7bac;
+}
+
+.Item {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Item h1 {
+  margin: 3px 10px;
+  font-size: 1.5rem;
+  padding: 0 0;
+}
+
+.Item:hover {
+  background-color: #004f7c;
+  cursor: pointer;
+}

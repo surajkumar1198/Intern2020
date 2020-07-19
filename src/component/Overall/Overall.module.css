@@ -1,0 +1,148 @@
+.Container {
+  flex: 1;
+  padding: 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto 2 2fr 0.5fr 2 2fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 50px;
+  grid-template-areas:
+    "Text Text"
+    "Card Card"
+    "Score Score"
+    "Monthly Frequency"
+    "Tabs Tabs"
+    "TabsDaily TabsDaily"
+    "TabsMonthly TabsFrequency";
+  background-color: #f2f2f2;
+}
+
+.Text {
+  grid-area: Text;
+  margin: 0 50px;
+  padding: 10px 10px;
+}
+
+.Text h1 {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+.Text span {
+  font-size: 1.2em;
+}
+
+.Card {
+  grid-area: Card;
+  display: grid;
+  padding: 0 50px;
+  grid-column-gap: 2%;
+  grid-template-columns: repeat(4, 13%);
+  justify-content: center;
+}
+
+.Score {
+  padding: 10px 10px;
+  grid-area: Score;
+  display: flex;
+  flex-flow: column;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.Monthly {
+  grid-area: Monthly;
+  display: flex;
+  flex-flow: column;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.TabsMonthly {
+  grid-area: TabsMonthly;
+  display: flex;
+  flex-flow: column;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.Heading {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Heading h1 {
+  margin: 0 0;
+}
+
+.Frequency {
+  grid-area: Frequency;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.TabsFrequency {
+  grid-area: TabsFrequency;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.Tabs {
+  grid-area: Tabs;
+  text-align: center;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.TabsDaily {
+  padding: 40px 10px;
+  grid-area: TabsDaily;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.Tab {
+  background-color: #1f7bac;
+  margin: 0 5px;
+  border: 1px solid white;
+  color: white;
+}
+
+.Tab h1 {
+  margin: 3px 0;
+  font-size: 1.5rem;
+}
+
+.Tab:hover {
+  background-color: #004f7c;
+  cursor: pointer;
+}
+
+.Picker {
+  box-sizing: border-box;
+  box-shadow: var(--card);
+}
+
+.Select {
+  padding: 2px 10px;
+}

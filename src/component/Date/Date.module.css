@@ -1,0 +1,102 @@
+.Container {
+  flex: 1;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; 
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr auto; */
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 100%;
+  grid-column-gap: 10px;
+  grid-row-gap: 5%;
+}
+
+.Text {
+ margin: 0 50px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  margin-top: 2%;
+}
+
+.Text h1 {
+  margin: 5px 0;
+  font-size :1.2em;
+}
+
+.Text span {
+  font-size: 1.5rem;
+  font-size: 1.2em;
+}
+.Card {
+  display: grid;
+  padding: 0 50px;
+  grid-column-gap: 2%;
+  grid-template-columns: repeat(4,13%) auto;
+  justify-content: center;
+}
+
+.Group{
+  display : grid;
+  grid-template-columns: repeat(3,32%);
+  width: 100%;
+  grid-column-gap: 1%;
+  margin-bottom: 4%;
+  justify-content: center;
+}
+
+.Emotion {
+  text-align: center;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-bottom:4%;
+}
+
+.Emotion h1 {
+  margin: 0 0;
+}
+
+.Score {
+  text-align: center;
+  box-sizing: border-box;
+  height: fit-content;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.Score h1 {
+  margin: 0 0;
+}
+
+.WordCloud {
+  height: 480px;
+  width: fit-content;
+  text-align: center;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.WordCloud h1 {
+  margin: 0 0;
+}
+
+.WordCloud img {
+  padding: 10px 10px;
+  height: 400px;
+  width: 385px;
+}
+
+.Picker {
+  grid-area: Picker;
+  box-sizing: border-box;
+  box-shadow: var(--card);
+}
+
+.Select {
+  padding: 2px 10px;
+}
